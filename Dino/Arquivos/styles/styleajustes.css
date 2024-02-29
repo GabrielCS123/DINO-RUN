@@ -1,0 +1,77 @@
+body {
+    background-color: cadetblue;
+}
+
+.mundo1 > button {
+    display: inline-block;
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: #8dce62;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mundo2 > button  {
+    display: inline-block;
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: #8dce62;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.voltar > button {
+    left: 20%;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #00fd9c;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.voltar > button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.voltar > :hover {
+    background-color: #13e046;
+    
+}
+
+
+.mundo1 > button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.mundo1 > :hover {
+    background-color: #13e046;
+    
+}
+
+
+.mundo2 > button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.mundo2 > :hover {
+    background-color: #13e046;
+    
+}

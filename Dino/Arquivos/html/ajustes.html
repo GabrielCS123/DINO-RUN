@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Dino/Arquivos/styles/styleajustes.css">
+    <title>Ajustes</title>
+</head>
+
+<script>
+    function mudaFoto(foto) {
+        document.getElementById("icone").src = foto;
+    }
+</script>
+
+<body>
+
+    <div class="voltar">
+        <button>
+            <a href="/Dino/Arquivos/html/inicio.html">VOLTAR AO INICIO</a>
+        </button>
+    </div>
+
+    <div class="mundo1">
+        <button onmousemove="mudaFoto('../Personagems/Dino-Horse-unscreen.gif')" onmouseout="mudaFoto('')" >
+            <a href="/Dino/Arquivos/html/index.html">Mundo 1</a>
+        </button>
+    </div>
+
+    <div class="mundo2">
+        <button onmousemove="mudaFoto('../Personagems/dino-gif-unscreen (1).gif')" onmouseout="mudaFoto('')" >
+            <a href="/Dino/Arquivos/html/index2.html">Mundo 2</a>
+        </button>
+    </div>
+
+    <div class="foto">
+        <img id="icone" src="" />
+    </div>
+
+</body>
+
+</html>
